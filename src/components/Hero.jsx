@@ -37,6 +37,9 @@ export default function Hero() {
           <a href="#contact" className="btn-outline">
             Let's Talk
           </a>
+          <a href="/resume.pdf" className="btn-outline" download>
+            Download Resume
+          </a>
         </div>
 
         <div className="hero-stats fade-up" style={{ transitionDelay: ".5s" }}>

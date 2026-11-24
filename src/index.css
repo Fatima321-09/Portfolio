@@ -586,7 +586,6 @@ svg {
   border-color: var(--blue);
   box-shadow: 0 0 10px rgba(56, 189, 248, 0.2);
 }
-
 /* ───── PROJECTS ───── */
 #projects {
   background: var(--black);
@@ -698,6 +697,16 @@ svg {
 .project-links {
   display: flex;
   gap: 0.8rem;
+}
+.project-links .btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.github-icon {
+  width: 1em;
+  height: 1em;
+  flex: 0 0 auto;
 }
 .project-link {
   font-family: "JetBrains Mono", monospace;

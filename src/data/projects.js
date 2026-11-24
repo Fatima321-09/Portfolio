@@ -4,7 +4,7 @@ export const projects = [
     description: "Full-stack e-commerce platform with JWT authentication, protected routes, secure REST APIs, persistent cart management and order-processing logic.",
     tags: ["React", "Vite", "Node", "Express", "MongoDB", "Tailwind", "JWT"],
     symbol: "EC",
-    github: "",
+    github: "https://github.com/Fatima321-09/E-commerce-Website-",
     live: "",
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     description: "Full-stack academic platform with CRUD workflows across students, departments and course registrations; APIs tested in Postman.",
     tags: ["React", "Node", "Express", "MongoDB", "Tailwind"],
     symbol: "UM",
-    github: "",
+    github: "https://github.com/Fatima321-09/University-Management-System",
     live: "",
   },
   {
@@ -25,8 +25,8 @@ export const projects = [
   },
   {
     title: "CheezyBot (Order-Taking Chatbot)",
-    description: "Unofficial demo of an order-taking assistant themed around a Pakistani pizza brand: takes orders, quotes prices and recommends deals based on group size, using Ollama and embeddings.",
-    tags: ["Python", "Ollama", "RAG", "JavaScript"],
+    description: "RAG-based order-taking assistant built during my internship at KICS, UET Lahore. It answers questions from the menu, quotes prices, takes orders, and recommends deals based on group size.",
+    tags: ["Python", "LangChain", "FAISS", "HuggingFace Embeddings"],
     symbol: "CB",
     github: "",
     live: "",
