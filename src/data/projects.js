@@ -1,34 +1,34 @@
 export const projects = [
   {
-    title: "Ecommerce Website",
-    description:
-      "A MERN stack ecommerce website with product browsing, cart-ready structure, and full-stack application architecture.",
-    tags: ["MongoDB", "Express", "React", "Node"],
-    status: "Live",
+    title: "E-Commerce Website (MERN)",
+    description: "Full-stack e-commerce platform with JWT authentication, protected routes, secure REST APIs, persistent cart management and order-processing logic.",
+    tags: ["React", "Vite", "Node", "Express", "MongoDB", "Tailwind", "JWT"],
     symbol: "EC",
+    github: "",
+    live: "",
   },
   {
     title: "University Management System",
-    description:
-      "A management system for university records, including students, departments, courses, and structured admin workflows.",
-    tags: ["React", "JavaScript", "CRUD"],
-    status: "WIP",
+    description: "Full-stack academic platform with CRUD workflows across students, departments and course registrations; APIs tested in Postman.",
+    tags: ["React", "Node", "Express", "MongoDB", "Tailwind"],
     symbol: "UM",
+    github: "",
+    live: "",
   },
   {
-    title: "Todo List App",
-    description:
-      "A clean task management app for adding, completing, deleting, and organizing daily tasks.",
-    tags: ["React", "CSS", "JavaScript"],
-    status: "Live",
-    symbol: "TD",
+    title: "BookChat (RAG PDF Chatbot)",
+    description: "Upload any PDF book and ask questions about it using vector embeddings, with a ChatGPT-style web interface. Built for a university course.",
+    tags: ["Python", "Ollama", "LangChain", "FAISS"],
+    symbol: "BC",
+    github: "",
+    live: "",
   },
   {
-    title: "Calculator",
-    description:
-      "A simple calculator interface built for accurate basic arithmetic and a responsive user experience.",
-    tags: ["HTML5", "CSS", "JavaScript"],
-    status: "Live",
-    symbol: "CL",
+    title: "CheezyBot (Order-Taking Chatbot)",
+    description: "Unofficial demo of an order-taking assistant themed around a Pakistani pizza brand: takes orders, quotes prices and recommends deals based on group size, using Ollama and embeddings.",
+    tags: ["Python", "Ollama", "RAG", "JavaScript"],
+    symbol: "CB",
+    github: "",
+    live: "",
   },
 ];

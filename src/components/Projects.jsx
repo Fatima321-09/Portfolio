@@ -13,13 +13,7 @@ export default function Projects() {
       <div className="projects-grid">
         {projects.map((project) => (
           <article className="project-card" key={project.title}>
-            <div
-              className={`project-status ${
-                project.status === "Live" ? "status-live" : "status-wip"
-              }`}
-            >
-              {project.status}
-            </div>
+            {project.live && <div className="project-status status-live">Live</div>}
             <div className="project-thumb" aria-hidden="true">
               {project.symbol}
             </div>
@@ -33,6 +27,10 @@ export default function Projects() {
               </div>
               <h3 className="project-title">{project.title}</h3>
               <p className="project-desc">{project.description}</p>
+              <div className="project-links">
+                {project.github && <a className="btn-outline" href={project.github} target="_blank" rel="noreferrer">GitHub</a>}
+                {project.live && <a className="btn-primary" href={project.live} target="_blank" rel="noreferrer">Live</a>}
+              </div>
             </div>
           </article>
         ))}

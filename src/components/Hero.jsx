@@ -1,4 +1,6 @@
-export default function Hero({ projectsCount }) {
+import { projects } from "../data/projects";
+
+export default function Hero() {
   return (
     <section id="hero">
       <div className="hero-bg"></div>
@@ -16,16 +18,16 @@ export default function Hero({ projectsCount }) {
         </h1>
 
         <p className="hero-role fade-up" style={{ transitionDelay: ".2s" }}>
-          MERN Full Stack Developer
-          <span className="tag">React</span>
-          <span className="tag">Node.js</span>
-          <span className="tag">MongoDB</span>
+          <span className="hero-role-text">MERN Full Stack Developer</span>
+          <span className="hero-tags">
+            <span className="tag">React</span>
+            <span className="tag">Node.js</span>
+            <span className="tag">MongoDB</span>
+          </span>
         </p>
 
         <p className="hero-desc fade-up" style={{ transitionDelay: ".3s" }}>
-          I build scalable web applications with clean architecture, stunning
-          UIs, and rock-solid backends. Currently pursuing a BS in Computer
-          Science and graduating in 2027.
+          I build full-stack web applications with React, Node.js and MongoDB, plus AI-powered tools with Ollama and LangChain. Final-year BSCS student at LCWU, graduating June 2027.
         </p>
 
         <div className="hero-ctas fade-up" style={{ transitionDelay: ".4s" }}>
@@ -39,7 +41,7 @@ export default function Hero({ projectsCount }) {
 
         <div className="hero-stats fade-up" style={{ transitionDelay: ".5s" }}>
           <div>
-            <div className="stat-num">{projectsCount}</div>
+            <div className="stat-num">{projects.length}</div>
             <div className="stat-label">Projects Built</div>
           </div>
           <div>
@@ -47,12 +49,12 @@ export default function Hero({ projectsCount }) {
             <div className="stat-label">Current CGPA</div>
           </div>
           <div>
-            <div className="stat-num">100%</div>
-            <div className="stat-label">Satisfaction</div>
+            <div className="stat-num">3</div>
+            <div className="stat-label">Certifications</div>
           </div>
           <div>
-            <div className="stat-num">15k+</div>
-            <div className="stat-label">Lines of Code</div>
+            <div className="stat-num">2027</div>
+            <div className="stat-label">Graduating</div>
           </div>
         </div>
       </div>
